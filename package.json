@@ -2,16 +2,24 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "next dev",
+    "dev": "NODE_OPTIONS='--inspect' next dev",
     "start": "next start"
   },
   "dependencies": {
-    "next": "latest",
+    "bootstrap": "^5.3.2",
+    "next": "^14.0.4",
+    "postcss-custom-properties": "^13.3.2",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^9.3.0",
     "react": "18.2.0",
     "react-bootstrap": "^2.9.1",
     "react-dom": "18.2.0"
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "20.10.4",
+    "typescript": "5.3.3"
   }
 }
