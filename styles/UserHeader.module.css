@@ -1,0 +1,13 @@
+.toggleHeader {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wrapSideBar {
+  position: relative;
+}
+
+.wrapSideBar .sideBar {
+  position: fixed;
+  left: 0;
+}
