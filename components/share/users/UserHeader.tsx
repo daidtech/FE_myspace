@@ -1,23 +1,22 @@
 import React from 'react';
-import { Container, Row, Nav, Navbar, NavDropdown, Col, Stack } from 'react-bootstrap';
-import styles from 'styles/UserHeader.module.css'
+import { Container, Row, Nav, Navbar, NavDropdown, Col, Stack, Button } from 'react-bootstrap';
+import styles from './UserHeader.module.scss';
+
 function UserHeader() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         <Row className='w-100'>
-          <Col xs={2}>
-            <Navbar.Brand href="#home">DaiDV</Navbar.Brand>
-          </Col>
-          <Col xs={10} className=''>
+          <Col className={styles.wrapHeader}>
             <div className={'toggle-header ' + styles.toggleHeader}>
+              <Navbar.Brand href="#home" className={styles.logo}>DaiDV</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
             </div>
             <div className={'side-bar ' + styles.wrapSideBar }>
               <div className={'side-bar ' + styles.sideBar }>
-                <Stack direction="horizontal" gap={3} className='justify-content-end'>
+                <Stack direction="horizontal" gap={3} className='justify-content-end '>
                   <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="justify-content-end w-100">
+                    <Nav className={styles.navBarItem}>
                       <Nav.Link href="#home">Home</Nav.Link>
                       <Nav.Link href="#link">About Me</Nav.Link>
                       <Nav.Link href="#link">Services</Nav.Link>
@@ -31,7 +30,9 @@ function UserHeader() {
                         </NavDropdown.Item>
                       </NavDropdown>
                       <Nav.Link href="#link">Contact</Nav.Link>
-                      <Nav.Link href="#link">Hire Me</Nav.Link>
+                      <Nav.Link href="#link">
+                        <Button variant="warning">Hire Me</Button>
+                      </Nav.Link>
                     </Nav>
                   </Navbar.Collapse>
                 </Stack>

@@ -1,0 +1,31 @@
+@import 'styles/variables.scss';
+
+.wrapHeader {
+  display: flex;
+  justify-content: space-between;
+  height: $headerHeight;
+  align-items: center;
+}
+
+.navBarItem {
+  align-items: center;
+}
+
+@media (max-width: 991px) {
+  .wrapHeader {
+    display: block;
+  }
+
+  .toggleHeader {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .wrapSideBar {
+    position: relative;
+  }
+
+  .navBarItem {
+    align-items: baseline;
+  }
+}
