@@ -7,13 +7,17 @@
   align-items: center;
 }
 
-.navBarItem {
+.navBarItems {
   align-items: center;
+  .navBarLink {
+    margin-left: 40px;
+  }
 }
 
 @media (max-width: 991px) {
   .wrapHeader {
     display: block;
+    height: auto;
   }
 
   .toggleHeader {
@@ -25,7 +29,10 @@
     position: relative;
   }
 
-  .navBarItem {
+  .navBarItems {
     align-items: baseline;
+    .navBarLink {
+      margin-left: 0;
+    }
   }
 }
