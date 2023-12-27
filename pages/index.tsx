@@ -1,11 +1,10 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
 
 
 // import UserHeader from '/components/UserHeader'
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       {/* <UserHeader></UserHeader> */}
       <h1>Hello2</h1>
     </div>

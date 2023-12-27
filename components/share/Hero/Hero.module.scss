@@ -1,0 +1,14 @@
+@import 'styles/variables.scss';
+
+.wrapImage {
+  position: relative;
+  .imageHero {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+  }
+}
+
+@media (max-width: 991px) {
+
+}
