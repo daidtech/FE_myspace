@@ -32,7 +32,7 @@ function UserHeader() {
                         </NavDropdown>
                         <Nav.Link href="#link" className={styles.navBarLink}>Contact</Nav.Link>
                         <Nav.Link href="#link" className={styles.navBarLink}>
-                          <Button variant="warning">Hire Me</Button>
+                          <Button variant="primary">Hire Me</Button>
                         </Nav.Link>
                       </Nav>
                     </Navbar.Collapse>
