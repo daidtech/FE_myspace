@@ -4,6 +4,7 @@ import type { AppProps } from 'next/app'
 import { ReactNode } from 'react';
 import { SSRProvider } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'styles/global.scss'
 
 type Page<P = {}> = NextPage<P> & {
   getLayout?: (page: ReactNode) => ReactNode;
