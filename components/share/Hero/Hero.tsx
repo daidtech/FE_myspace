@@ -10,7 +10,7 @@ function Hero() {
           <Row className='align-items-center h-100'>
             <Col>
               <h1>Fitness Mantra To Live Fit Life</h1>
-              <div className='breadcrumb_content'>
+              <div className='breadcrumb_content text-primary'>
                 HOME {'>'}  FITNESS MANTRA TO LIVE FIT LIFE
               </div>
             </Col>

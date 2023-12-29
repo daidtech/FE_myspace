@@ -1,5 +1,9 @@
 @import 'styles/variables.scss';
-
+.userHeader {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
 .wrapHeader {
   display: flex;
   justify-content: space-between;

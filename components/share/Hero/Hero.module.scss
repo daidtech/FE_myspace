@@ -2,7 +2,7 @@
 
 .wrapImage {
   position: relative;
-  height: $heroHeight;
+  height: calc($heroHeight + $headerHeight);
   .titleBlock {
     height: inherit;
   }
@@ -11,8 +11,10 @@
     position: absolute;
     top: 0;
     z-index: -1;
-    object-fit: fill;
     width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 

@@ -4,13 +4,15 @@ import styles from './UserHeader.module.scss';
 
 function UserHeader() {
   return (
-    <header>
-      <Navbar expand="lg" className="bg-body-tertiary">
+    <header className={styles.userHeader}>
+      <Navbar expand="lg" >
         <Container>
           <Row className='w-100'>
             <Col className={styles.wrapHeader}>
               <div className={'toggle-header ' + styles.toggleHeader}>
-                <Navbar.Brand href="#home" className={styles.logo}>DaiDV</Navbar.Brand>
+                <Navbar.Brand href="#home" className={styles.logo}>
+                  DaiDV
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
               </div>
               <div className={'side-bar ' + styles.wrapSideBar }>
