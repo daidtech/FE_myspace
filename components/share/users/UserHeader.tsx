@@ -15,8 +15,8 @@ function UserHeader() {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
               </div>
-              <div className={'side-bar ' + styles.wrapSideBar }>
-                <div className={'side-bar ' + styles.sideBar }>
+              <div className={styles.wrapSideBar }>
+                <div className={styles.sideBar }>
                   <Stack direction="horizontal" gap={3} className='justify-content-end '>
                     <Navbar.Collapse id="basic-navbar-nav">
                       <Nav className={styles.navBarItems}>
@@ -24,17 +24,10 @@ function UserHeader() {
                         <Nav.Link href="#link" className={styles.navBarLink}>About Me</Nav.Link>
                         <Nav.Link href="#link" className={styles.navBarLink}>Services</Nav.Link>
                         <Nav.Link href="#link" className={styles.navBarLink}>Portfolio</Nav.Link>
-                        <NavDropdown title="Blog" id="blog-drop-down" className={styles.navBarLink}>
-                          <NavDropdown.Item href="#action/3.1">
-                            Blog
-                          </NavDropdown.Item>
-                          <NavDropdown.Item href="#action/3.2">
-                            Blog detail
-                          </NavDropdown.Item>
-                        </NavDropdown>
+                        <Nav.Link href="#blogs" className={styles.navBarLink}>Blog</Nav.Link>
                         <Nav.Link href="#link" className={styles.navBarLink}>Contact</Nav.Link>
                         <Nav.Link href="#link" className={styles.navBarLink}>
-                          <Button variant="primary">Hire Me</Button>
+                          <Button variant="primary">HIRE ME</Button>
                         </Nav.Link>
                       </Nav>
                     </Navbar.Collapse>

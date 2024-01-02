@@ -1,0 +1,16 @@
+@import './variables.scss';
+// change the theme
+$theme-colors: (
+  "primary": $primary,
+  "secondary": #222d32,
+  "danger": #ff4136,
+);
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+.navbar-nav .nav-link {
+  &.show {
+    color: $primary;
+  }
+}
