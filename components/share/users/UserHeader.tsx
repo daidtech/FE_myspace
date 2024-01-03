@@ -11,7 +11,7 @@ function UserHeader() {
             <Col className={styles.wrapHeader}>
               <div className={'toggle-header ' + styles.toggleHeader}>
                 <Navbar.Brand href="#home" className={styles.logo}>
-                  DaiDV
+                  Rock D
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
               </div>
@@ -27,7 +27,7 @@ function UserHeader() {
                         <Nav.Link href="#blogs" className={styles.navBarLink}>Blog</Nav.Link>
                         <Nav.Link href="#link" className={styles.navBarLink}>Contact</Nav.Link>
                         <Nav.Link href="#link" className={styles.navBarLink}>
-                          <Button variant="primary">HIRE ME</Button>
+                          <Button variant="primary" className='text-white'>HIRE ME</Button>
                         </Nav.Link>
                       </Nav>
                     </Navbar.Collapse>
