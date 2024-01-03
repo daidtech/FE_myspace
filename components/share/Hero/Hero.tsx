@@ -1,22 +1,25 @@
 import React from 'react';
 import styles from './Hero.module.scss';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Breadcrumb, Col, Container, Row } from 'react-bootstrap';
 
 function Hero() {
   return (
     <section>
-      <div className={'background-image ' + styles.wrapImage}>
+      <div className={styles.wrapImage}>
         <Container className={styles.titleBlock}>
           <Row className='align-items-center h-100'>
             <Col>
               <h1>Fitness Mantra To Live Fit Life</h1>
-              <div className='breadcrumb_content text-primary'>
-                HOME {'>'}  FITNESS MANTRA TO LIVE FIT LIFE
-              </div>
+              <Breadcrumb>
+                <Breadcrumb.Item href="#">HOME</Breadcrumb.Item>
+                <Breadcrumb.Item active>
+                  FITNESS MANTRA TO LIVE FIT LIFE
+                </Breadcrumb.Item>
+              </Breadcrumb>
             </Col>
           </Row>
         </Container>
-        <img className={styles.imageHero} src='/images/breadcrumb_bg-RDlFJMFR.jpg' alt='hero image'/>
+        <img className={styles.imageHero} src='/images/breadcrumb_bg-RDlFJMFR.jpg' alt={'background'}/>
       </div>
     </section>
   );

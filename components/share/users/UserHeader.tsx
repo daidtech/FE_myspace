@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Nav, Navbar, NavDropdown, Col, Stack, Button } from 'react-bootstrap';
+import { Container, Row, Nav, Navbar, Col, Stack, Button } from 'react-bootstrap';
 import styles from './UserHeader.module.scss';
 
 function UserHeader() {

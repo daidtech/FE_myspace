@@ -1,0 +1,15 @@
+@import 'styles/variables.scss';
+
+.widgetTitle {
+  font-weight: 700;
+  margin-bottom: 20px;
+  &:before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 30px;
+    background: #ffb40c;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+}
