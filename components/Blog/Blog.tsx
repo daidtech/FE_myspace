@@ -5,7 +5,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import RightSide from './RightSide/RightSide';
 import BlogList from './BlogList/BlogList';
 
-function Blog() {
+export default function Blog() {
   return (
     <section>
       <Hero />
@@ -22,5 +22,3 @@ function Blog() {
     </section>
   );
 }
-
-export default Blog;

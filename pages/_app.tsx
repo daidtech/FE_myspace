@@ -1,10 +1,10 @@
 import UserLayout from 'components/layouts/UserLayout';
 import { NextPage } from 'next';
-import type { AppProps } from 'next/app'
+import type { AppProps } from 'next/app';
 import { ReactNode } from 'react';
 import { SSRProvider } from 'react-bootstrap';
-import 'styles/global.scss'
-import 'styles/custom_bootstrap.scss'
+import 'styles/global.scss';
+import 'styles/custom_bootstrap.scss';
 import 'styles/variables.scss';
 
 type Page<P = {}> = NextPage<P> & {
@@ -15,7 +15,7 @@ type Props = AppProps & {
   Component: Page;
 };
 
-function MyApp({ Component, pageProps }: Props) {
+export default function MyApp({ Component, pageProps }: Props) {
 
   return (
     <UserLayout>
@@ -25,5 +25,3 @@ function MyApp({ Component, pageProps }: Props) {
     </UserLayout>
   )
 }
-
-export default MyApp

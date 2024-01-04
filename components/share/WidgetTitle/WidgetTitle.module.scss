@@ -2,14 +2,20 @@
 
 .widgetTitle {
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   &:before {
     content: "";
     display: inline-block;
     width: 5px;
-    height: 30px;
+    height: 25px;
+    -webkit-transform: skew(-20deg);
+    -khtml-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    transform: skew(-20deg);
     background: #ffb40c;
-    margin-right: 10px;
+    margin-right: 16px;
+    margin-bottom: 2px;
     vertical-align: middle;
   }
 }

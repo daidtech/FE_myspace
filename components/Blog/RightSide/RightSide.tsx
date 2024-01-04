@@ -3,8 +3,9 @@ import styles from './RightSide.module.scss';
 import { Form, InputGroup, ListGroup } from 'react-bootstrap';
 import WidgetTitle from 'components/share/WidgetTitle/WidgetTitle';
 import MyListGroup from 'components/share/MyListGroup/MyListGroup';
+import SimpleBlock from '../SimpleBlock/SimpleBlock';
 
-function RightSide() {
+export default function RightSide() {
   return (
     <section>
       <InputGroup className="mb-3">
@@ -14,8 +15,11 @@ function RightSide() {
       </InputGroup>
       <WidgetTitle title={'Category'}/>
       <MyListGroup />
+      <WidgetTitle title={'Recent Post'}/>
+      <SimpleBlock />
+      <WidgetTitle title={'Archives'}/>
+      <MyListGroup />
+
     </section>
   );
 }
-
-export default RightSide;

@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Hero.module.scss';
 import { Breadcrumb, Col, Container, Row } from 'react-bootstrap';
 
-function Hero() {
+export default function Hero() {
   return (
     <section>
       <div className={styles.wrapImage}>
@@ -24,5 +24,3 @@ function Hero() {
     </section>
   );
 }
-
-export default Hero;
