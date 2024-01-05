@@ -3,11 +3,12 @@
 .simpleBlock {
   display: flex;
   height: 110px;
+  cursor: pointer;
 }
 
-.wrapImage {
+.image {
   max-width: 30%;
-  padding: 0.75rem;
+  padding: $gapXs;
   img {
     height: 100%;
     width: 110px;
@@ -16,6 +17,12 @@
   }
 }
 
+.content {
+  padding: $gapXs;
+  h4 {
+    margin-bottom: $gapMd;
+  }
+}
 @media (max-width: 991px) {
 
 }
