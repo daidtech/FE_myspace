@@ -3,6 +3,7 @@
 .tag {
   display: flex;
   padding: 3px 10px 3px 3px;
+  margin: $gapXs;
   border: 1px solid #ccc;
   border-radius: 30px;
   color: $textColor;
@@ -10,6 +11,11 @@
   font-size: 15px;
   max-width: fit-content;
   background-color: #fff;
+  .checked {
+    p {
+      background-color: red;
+    }
+  }
   p {
     margin: 0;
     padding-left: $gapXs;
