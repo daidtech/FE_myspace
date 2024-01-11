@@ -8,6 +8,9 @@ export default function TagGroup() {
       <Tag isChecked={false} />
       <Tag isChecked={true} />
       <Tag isChecked={false} />
+      <Tag isChecked={false} />
+      <Tag isChecked={false} />
+      <Tag isChecked={false} />
 
     </div>
   );
