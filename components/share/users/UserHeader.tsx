@@ -11,7 +11,7 @@ export default function UserHeader() {
             <Col className={styles.wrapHeader}>
               <div className={'toggle-header ' + styles.toggleHeader}>
                 <Navbar.Brand href="#home" className={styles.logo}>
-                  Rock D
+                  Damas D2
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
               </div>

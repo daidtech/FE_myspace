@@ -1,6 +1,45 @@
 @import 'styles/variables.scss';
 
 
+.title {
+  font-size: 2.4em;
+  color: #000;
+  line-height: 1.2;
+  letter-spacing: -1px;
+  margin: 10px 0;
+}
+
+.shortDescription {
+  font-size: 1.1em;
+  line-height: 1.618;
+  font-weight: bold;
+  color: #333;
+  clear: both;
+  float: left;
+  width: 100%;
+  margin: 0 0 18px;
+}
+
+.content {
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .imageDescription {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    color: #888;
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 991px) {
 
 }

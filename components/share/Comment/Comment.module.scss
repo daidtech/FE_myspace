@@ -1,0 +1,11 @@
+@import 'styles/variables.scss';
+
+.image {
+  max-width: 5rem;
+  height: 5rem;
+  border-radius: .5rem;
+}
+
+.description {
+  margin-left: $gapXs;
+}
