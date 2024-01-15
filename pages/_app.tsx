@@ -6,6 +6,7 @@ import { SSRProvider } from 'react-bootstrap';
 import 'styles/global.scss';
 import 'styles/custom_bootstrap.scss';
 import 'styles/variables.scss';
+import 'styles/comments.scss';
 
 type Page<P = {}> = NextPage<P> & {
   getLayout?: (page: ReactNode) => ReactNode;
