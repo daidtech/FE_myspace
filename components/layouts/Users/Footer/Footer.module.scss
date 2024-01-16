@@ -1,1 +1,24 @@
+@import 'styles/variables.scss';
 
+.footer {
+  text-align: center;
+  p {
+    margin:0;
+  }
+}
+
+.gapLine {
+  width: 50%;
+  margin: 0 auto;
+  border-top: 5px solid $primary;
+}
+
+.content {
+  margin-top: 2rem;
+}
+
+.social {
+  a {
+    padding: 0 $gapMd;
+  }
+}
