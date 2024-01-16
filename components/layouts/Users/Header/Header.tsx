@@ -1,10 +1,10 @@
 import React from 'react';
 import { Container, Row, Nav, Navbar, Col, Stack, Button } from 'react-bootstrap';
-import styles from './UserHeader.module.scss';
+import styles from './Header.module.scss';
 
-export default function UserHeader() {
+export default function Header() {
   return (
-    <header className={styles.userHeader}>
+    <header className={styles.header}>
       <Navbar expand="lg" >
         <Container>
           <Row className='w-100'>

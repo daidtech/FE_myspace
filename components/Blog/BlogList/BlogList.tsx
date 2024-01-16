@@ -5,7 +5,6 @@ import Comments from 'components/share/Comments/Comments';
 export default function BlogList() {
   return (
     <section className='my-5'>
-      <h1 className={styles.title}>Tuyển Trung Quốc bị phạt</h1>
       <p>Tường Linh Thứ tư, 3/1/2024 09:11 (GMT+7)</p>
       <p className={styles.shortDescription}>
         HLV Aleksandar Jankovic trừng phạt dàn sao tuyển Trung Quốc sau hai thất bại liên tiếp chỉ trong vòng 3 ngày.

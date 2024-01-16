@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './Blog.module.scss';
 import Hero from 'components/share/Hero/Hero';
 import { Col, Container, Row } from 'react-bootstrap';
 import RightSide from './RightSide/RightSide';
