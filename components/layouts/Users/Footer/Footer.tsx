@@ -4,42 +4,36 @@ import { BsFacebook, BsYoutube, BsTwitterX } from 'react-icons/bs';
 
 export default function Footer() {
   return (
-    <Container className={styles.footer}>
-      <Row>
-        <Col>
-          <div className={styles.gapLine}></div>
-        </Col>
-      </Row>
+    <Container fluid className={styles.footer}>
       <Row className={styles.content}>
         <Col md={6}>
           <div>
             <a href="/contact">
-              Contact
+              <p>Contact</p>
             </a>
             <p>dvdai63@gmail.com</p>
             <div className={styles.social}>
               <a href="#">
                 <BsFacebook fontSize="large" />
+                <span className="ps-2">Facebook</span>
               </a>
               <a href="#">
                 <BsYoutube fontSize="large" />
-              </a>
-              <a href="#">
-                <BsTwitterX fontSize="large" />
+                <span className="ps-2">Youtube</span>
               </a>
             </div>
           </div>
         </Col>
         <Col md={6}>
-          <p className="text-primary">Subscribe</p>
-          <InputGroup className="m-3 px-5">
+          <p className="text-primary w-75">Subscribe</p>
+          <InputGroup className="m-3 px-5 w-75">
             <Form.Control
-              placeholder="Recipient's username"
-              aria-label="Recipient's username"
-              aria-describedby="basic-addon2"
+              placeholder="Your email"
+              aria-label="Your email"
+              aria-describedby=""
             />
             <Button variant="primary" id="button-addon2">
-              Button
+              subscribe
             </Button>
           </InputGroup>
         </Col>
