@@ -1,17 +1,23 @@
-import React from 'react';
 import Hero from 'components/share/Hero/Hero';
+import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import Content from './Content/Content';
 import RightSide from './RightSide/RightSide';
-import BlogList from './BlogList/BlogList';
+import List from './List/List';
+import { BlogTypes } from 'models/Blog';
 
-export default function Blog() {
+type BlogDetailProps = {
+  type: BlogTypes
+}
+
+export default function Blog({type}: Readonly<BlogDetailProps>) {
   return (
     <section>
       <Hero />
       <Container>
         <Row>
           <Col lg={8}>
-            <BlogList />
+            { type==BlogTypes.Index ?  <List /> : <Content/>}
           </Col>
           <Col lg={4}>
             <RightSide />
@@ -19,5 +25,5 @@ export default function Blog() {
         </Row>
       </Container>
     </section>
-  );
+  )
 }

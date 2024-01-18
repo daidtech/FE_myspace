@@ -1,8 +1,8 @@
 import React from 'react';
-import styles  from './BlogList.module.scss';
+import styles  from './Content.module.scss';
 import Comments from 'components/share/Comments/Comments';
 
-export default function BlogList() {
+export default function Content() {
   return (
     <section className='my-5'>
       <p>Tường Linh Thứ tư, 3/1/2024 09:11 (GMT+7)</p>
