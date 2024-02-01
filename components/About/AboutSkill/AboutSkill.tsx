@@ -30,6 +30,7 @@ export default function AboutSkill() {
             </div>
           </Col>
           <Col lg={5}>
+            <img src='/images/1.jpg' alt="" className={styles.aboutBackground} />
           </Col>
         </Row>
       </Container>

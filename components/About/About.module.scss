@@ -1,3 +1,5 @@
+@import 'styles/variables.scss';
+
 $aboutHeight: 25rem;
 $aboutWidth: 70%;
 
@@ -11,23 +13,31 @@ $aboutWidth: 70%;
   background-color: aliceblue;
   width: $aboutWidth;
   max-height: $aboutHeight;
-  left: calc((100% - $aboutWidth)/2);
-  border-radius: 5px;
+  left: calc((100% - $aboutWidth - 2rem*2)/2);
+  padding: 4rem 2rem;
+  box-sizing: content-box;
 }
 .aboutImageBox {
   height: 100%;
   width: 100%;
+  max-height: $aboutHeight;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   img {
-    height: 100%;
-    border-radius: 12px;
+    height: calc($aboutHeight - 4rem);
+    width: 80%;
+    object-fit: fill;
   }
 }
 
-.awardBox {
-  display: flex;
-}
 .aboutBackground {
-  height: calc(($aboutHeight * 1.5) - 10rem);
+  height: calc(($aboutHeight * 1.5));
   width: 100vw;
   object-fit:cover;
+}
+
+.contentBelowHero {
+  background-color: #fff;
+  padding: 10rem 0 5rem;
 }
