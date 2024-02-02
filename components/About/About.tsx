@@ -1,6 +1,7 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import styles from './About.module.scss';
 import AboutSkill from './AboutSkill/AboutSkill';
+import Experience from './Experience/Experience';
 
 
 export default function About() {
@@ -27,6 +28,7 @@ export default function About() {
       <img src='/images/breadcrumb_bg-RDlFJMFR.jpg' alt="" className={styles.aboutBackground} />
       <div className={styles.contentBelowHero}>
         <AboutSkill />
+        <Experience />
       </div>
     </section>
   )
