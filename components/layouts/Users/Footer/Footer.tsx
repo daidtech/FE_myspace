@@ -1,6 +1,6 @@
 import { Container, Row, Col, Form, Button, InputGroup } from "react-bootstrap";
 import styles from './Footer.module.scss';
-import { BsFacebook, BsYoutube, BsTwitterX } from 'react-icons/bs';
+import { BsFacebook, BsYoutube } from 'react-icons/bs';
 
 export default function Footer() {
   return (
