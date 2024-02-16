@@ -14,20 +14,20 @@ export default function Experience() {
           </Col>
         </Row>
         <Row>
-          <Col lg={1}>
+          <Col lg={2}>
             <div className={styles.wrapCounter}>
-              <div className={styles.counterInter}></div>
+              <div className={styles.counterInter + ' ' + styles.hoverCounter}></div>
               <div className={styles.counterOuter}></div>
               <p>1</p>
             </div>
           </Col>
           <Col lg={4}>
-            <div>
+            <div className={styles.workFor}>
               <h4>March 2020 - Now</h4>
               <h4>Web developer tại NUS</h4>
             </div>
           </Col>
-          <Col lg={7}>
+          <Col lg={6}>
             <div className={styles.workDetail}>
               Mauris dictum eros purus, vitae pharetra risus pulvinar rhoncus. Duis bibendum tristique luctus. Aliquam non urna odio morbi nec lectus tempus lorem vehicula consequat sed eu lectus. Ut maximus nulla a est placer.
             </div>
