@@ -22,12 +22,15 @@ export default function Experience() {
             </div>
           </Col>
           <Col lg={4}>
-            <h4>March 2020 - Now</h4>
-            <h4>Web developer tại NUS</h4>
-
+            <div>
+              <h4>March 2020 - Now</h4>
+              <h4>Web developer tại NUS</h4>
+            </div>
           </Col>
-          <Col lg={4}>
-
+          <Col lg={7}>
+            <div className={styles.workDetail}>
+              Mauris dictum eros purus, vitae pharetra risus pulvinar rhoncus. Duis bibendum tristique luctus. Aliquam non urna odio morbi nec lectus tempus lorem vehicula consequat sed eu lectus. Ut maximus nulla a est placer.
+            </div>
           </Col>
         </Row>
       </Container>
