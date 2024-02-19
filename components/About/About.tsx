@@ -25,7 +25,6 @@ export default function About() {
           </Row>
         </Container>
       </section>
-      <img src='/images/breadcrumb_bg-RDlFJMFR.jpg' alt="" className={styles.aboutBackground} />
       <div className={styles.contentBelowHero}>
         <AboutSkill />
         <Experience />

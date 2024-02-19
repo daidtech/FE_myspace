@@ -8,13 +8,9 @@ $aboutWidth: 70%;
   position: relative;
 }
 .about {
-  position: absolute;
-  top: calc($aboutHeight);
-  background-color: #ebebec;
-  width: $aboutWidth;
+  background-color: #f5f5f5;
   max-height: $aboutHeight;
-  left: calc((100% - $aboutWidth - 2rem*2)/2);
-  padding: 4rem 2rem;
+  padding: 6rem 2rem 4rem;
   box-sizing: content-box;
 }
 .aboutImageBox {
@@ -39,7 +35,7 @@ $aboutWidth: 70%;
 
 .contentBelowHero {
   background-color: #fff;
-  padding: calc($aboutHeight - 5rem) 0 5rem;
+  padding: 4rem 0 5rem;
 }
 
 @media (max-width: 991px) {
