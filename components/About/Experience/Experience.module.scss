@@ -8,6 +8,7 @@
 .wrapCounter {
   position: relative;
   width: 3rem;
+  height: 5rem;
   top: calc((100% - 1.5rem)/2);
   left: 50%;
   p {
@@ -53,7 +54,6 @@
   width: 6rem;}
 
 .workFor {
-  margin-top: 3rem;
   margin-left: 1rem;
 }
 
@@ -72,4 +72,28 @@
     background-color: #feb000;
     color: #fff;
   }
+}
+
+@media (max-width: 991px) {
+
+  // .wrapCounter {
+  //   position: relative;
+  //   width: 3rem;
+  //   top: calc((100%)/2);
+  //   left: 50%;
+  //   height: fit-content;
+  //   p {
+  //     height: 100%;
+  //     font-size: 2rem;
+  //     position: absolute;
+  //     z-index: 2;
+  //     left: -0.5rem;
+  //     top: -1.5rem;
+  //     color: white;
+  //   }
+  // }
+  .workFor {
+    margin: 2rem 0;
+  }
+
 }

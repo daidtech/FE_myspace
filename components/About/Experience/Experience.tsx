@@ -21,10 +21,10 @@ export default function Experience() {
               <p>1</p>
             </div>
           </Col>
-          <Col lg={4}>
+          <Col lg={4} className="align-self-center">
             <div className={styles.workFor}>
               <h4>March 2020 - Now</h4>
-              <h4>Web developer tại NUS</h4>
+              <h4>Ruby on rails developer at NUS</h4>
             </div>
           </Col>
           <Col lg={6}>

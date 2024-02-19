@@ -9,8 +9,8 @@ $aboutWidth: 70%;
 }
 .about {
   position: absolute;
-  top: calc($aboutHeight/2);
-  background-color: aliceblue;
+  top: calc($aboutHeight);
+  background-color: #ebebec;
   width: $aboutWidth;
   max-height: $aboutHeight;
   left: calc((100% - $aboutWidth - 2rem*2)/2);
@@ -39,7 +39,7 @@ $aboutWidth: 70%;
 
 .contentBelowHero {
   background-color: #fff;
-  padding: 10rem 0 5rem;
+  padding: calc($aboutHeight - 5rem) 0 5rem;
 }
 
 @media (max-width: 991px) {
@@ -50,10 +50,19 @@ $aboutWidth: 70%;
       text-align: center;
     }
   }
+
+  .aboutDescription {
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
   .aboutImageBox {
     margin-bottom: 5rem;
   }
   .contentBelowHero {
-    padding: 23rem 0 5rem;
+    padding: 35rem 0 5rem;
   }
 }
