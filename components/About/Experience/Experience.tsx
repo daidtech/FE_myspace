@@ -7,7 +7,7 @@ function WorkFor({info})  {
       <Row>
         <Col lg={2}>
           <div className={styles.wrapCounter}>
-            <div className={styles.counterInter + ' ' + styles.hoverCounter}></div>
+            <div className={styles.counterInter}></div>
             <div className={styles.counterOuter}></div>
             <p>{info.index}</p>
           </div>
@@ -38,7 +38,7 @@ export default function Experience() {
       responsibility: "Mauris dictum eros purus, vitae pharetra risus pulvinar rhoncus. Duis bibendum tristique luctus. Aliquam non urna odio morbi nec lectus tempus lorem vehicula consequat sed eu lectus. Ut maximus nulla a est placer."
     },
     {
-      index: 1,
+      index: 2,
       title: "Web developer",
       companyName: "Vinetwork",
       dateStart: new Date(2019, 9, 3),

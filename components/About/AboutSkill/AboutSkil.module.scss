@@ -1,14 +1,12 @@
-.aboutSkill  {
+.skillBox {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 2rem;
 }
 
-
-.wrapAboutBackground {
-  text-align: center;
-}
-.aboutBackground {
-  max-height: 20rem;
-  border-radius: 50%;
-}
-.wrapProgressBar {
-  margin-bottom: 4rem;
+.skillBoxTitle {
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-top: 0;
+  color: #32323a;
 }
