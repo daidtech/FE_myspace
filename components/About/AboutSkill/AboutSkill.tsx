@@ -8,12 +8,9 @@ export default function AboutSkill() {
       <Container>
         <Row>
           <Col>
-            <h3>
-              Let Know Our Expert Skills
-            </h3>
-            <p>
-              Curabitur libero eros, efficitur sit amet sodales tincidunt, aliquet et leo. Sed ut nibh feugiat, auctor enim quis, hendrerit ipsum. Aenean blandit lacinia suscipit. Nunc ut tincidunt massa, eu semper lacus.
-            </p>
+            <h2>
+              Skills
+            </h2>
           </Col>
         </Row>
         <Row>

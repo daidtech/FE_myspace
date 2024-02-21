@@ -2,6 +2,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import styles from './About.module.scss';
 import AboutSkill from './AboutSkill/AboutSkill';
 import Experience from './Experience/Experience';
+import Education from './Education/Education';
 
 
 export default function About() {
@@ -28,6 +29,7 @@ export default function About() {
       <div className={styles.contentBelowHero}>
         <AboutSkill />
         <Experience />
+        <Education />
       </div>
     </section>
   )

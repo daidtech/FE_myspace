@@ -1,4 +1,4 @@
-import { Container, Row, Col, ProgressBar } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import styles from './Experience.module.scss';
 
 function WorkFor({info})  {
@@ -53,8 +53,7 @@ export default function Experience() {
         <Row>
           <Col>
             <div className={styles.title}>
-              <h1>Our Work Experience</h1>
-              <p>When unknow printer took a gallery of type and scramblted it to make a type specimen book</p>
+              <h2>Experience</h2>
             </div>
           </Col>
         </Row>
