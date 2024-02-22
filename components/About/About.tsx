@@ -3,6 +3,7 @@ import styles from './About.module.scss';
 import AboutSkill from './AboutSkill/AboutSkill';
 import Experience from './Experience/Experience';
 import Education from './Education/Education';
+import Certification from './Certification/Certification';
 
 
 export default function About() {
@@ -29,6 +30,7 @@ export default function About() {
       <div className={styles.contentBelowHero}>
         <AboutSkill />
         <Experience />
+        <Certification />
         <Education />
       </div>
     </section>

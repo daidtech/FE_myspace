@@ -1,3 +1,41 @@
 .education {
   padding: 2rem 0;
 }
+.title {
+  text-transform: uppercase;
+}
+.educationBlock {
+  position: relative;
+  margin-top: 2rem;
+  padding: 3.5rem 2rem 2rem;
+  box-shadow: 2.5px 4.33px 15px #00000026;
+}
+
+.educationTime {
+  width: 110px;
+  height: 110px;
+  border: 10px solid #f1f2f7;
+  border-radius: 50%;
+  text-align: center;
+  color: #FFF;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-top: 16px;
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  margin-left: -50px;
+  background-color: #aec785;
+}
+
+.educationInfo {
+  h4 {
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 991px) {
+  .educationTime {
+    top: -20%;
+  }
+}
