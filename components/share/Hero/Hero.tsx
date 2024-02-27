@@ -19,7 +19,7 @@ export default function Hero() {
             </Col>
           </Row>
         </Container>
-        <img className={styles.imageHero} src='/images/breadcrumb_bg-RDlFJMFR.jpg' alt={'background'}/>
+        <img className={styles.imageHero} src='/images/pexels-life-of-pix-7974.jpg' alt={'background'}/>
       </div>
     </section>
   );
