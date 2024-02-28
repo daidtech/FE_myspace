@@ -1,18 +1,13 @@
 import { Container, Row, Col } from "react-bootstrap";
-import styles from './AboutSkil.module.scss';
+import styles from './AboutSkill.module.scss';
+import RowTitle from "components/share/RowTitle/RowTitle";
 
 export default function AboutSkill() {
 
   return (
     <section className={styles.aboutSkill}>
+      <RowTitle title="Skill" />
       <Container>
-        <Row>
-          <Col>
-            <h2>
-              Skills
-            </h2>
-          </Col>
-        </Row>
         <Row>
           <Col lg={4}>
             <div className={styles.skillBox}>

@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import styles from './Experience.module.scss';
+import RowTitle from "components/share/RowTitle/RowTitle";
 
 function WorkFor({info})  {
   return (
@@ -49,15 +50,7 @@ export default function Experience() {
 
   return (
     <section className={styles.experience}>
-      <Container>
-        <Row>
-          <Col>
-            <div className={styles.title}>
-              <h2>Experience</h2>
-            </div>
-          </Col>
-        </Row>
-      </Container>
+      <RowTitle title="Experience"/>
       {
         workForHistory.map((info) => {
           return <WorkFor info={info}/>
