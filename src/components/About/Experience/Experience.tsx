@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import styles from './Experience.module.scss';
-import RowTitle from "components/share/RowTitle/RowTitle";
+import RowTitle from "src/components/share/RowTitle/RowTitle";
 
 function WorkFor({info})  {
   return (

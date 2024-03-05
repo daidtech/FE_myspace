@@ -20,8 +20,12 @@ export default function About() {
             <Col lg={7}>
               <div className="content_box">
                 <h1>Hi I'm Damas</h1>
-                <p className={styles.aboutDescription}>Proin ipsum arcu, lobortis id ullamcorper nec, vehicula eget magna. Sed ut malesuada magna, eget lacinia sapien. Nam molestie non ex sit amet ornare. Nunc in pellentesque ipsum, vel vulputate sapien.<br/>
-                Suspendisse potenti. Aliquam elementum felis purus, quis vulputate libero semper nec. Morbi tincidunt maximus nisl vel placerat. Curabitur at ligula ac diam elementum hendrerit. Suspendisse nec metus eu est laoreet hendrerit vitae non ipsum. Nam faucibus elementum arcu, eget eleifend tortor.</p>
+                <p className={styles.aboutDescription}>
+                  a Ruby on Rails developer with more than 4 years of experience developing websites. I have a good understanding of database design and high load balancing. I enjoy solving problems. 
+                </p>
+                <p className={styles.aboutDescription}>
+                  I enjoy exercising and tracking my habits to improve them over time. I believe that anyone can become talented if they believe in themselves. I enjoy reading books and finding new ideas from them. My coworkers say that I am a good team player and that I help keep the team happier and less stressed when a release is coming.
+                  </p>
               </div>
             </Col>
           </Row>

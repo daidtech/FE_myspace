@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import styles from './AboutSkill.module.scss';
-import RowTitle from "components/share/RowTitle/RowTitle";
+import RowTitle from "src/components/share/RowTitle/RowTitle";
 
 export default function AboutSkill() {
 

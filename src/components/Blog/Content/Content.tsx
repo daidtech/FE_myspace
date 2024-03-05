@@ -1,6 +1,6 @@
 import React from 'react';
 import styles  from './Content.module.scss';
-import Comments from 'components/share/Comments/Comments';
+import Comments from 'src/components/share/Comments/Comments';
 
 export default function Content() {
   return (

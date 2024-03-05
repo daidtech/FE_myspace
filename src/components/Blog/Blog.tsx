@@ -1,4 +1,4 @@
-import Hero from 'components/share/Hero/Hero';
+import Hero from 'src/components/share/Hero/Hero';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Content from './Content/Content';

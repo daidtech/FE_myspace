@@ -1,5 +1,5 @@
 import React from 'react';
-import UserHeader from 'components/layouts/Users/Header/Header'
+import UserHeader from 'src/components/layouts/Users/Header/Header'
 import UserFooter from './Users/Footer/Footer';
 
 export default function UserLayout({ children }) {
