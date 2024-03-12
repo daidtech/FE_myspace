@@ -62,3 +62,13 @@ $aboutWidth: 70%;
     padding: 35rem 0 5rem;
   }
 }
+
+@media (max-width: 768px) {
+  .contentBelowHero {
+    padding: 5rem 0 5rem;
+  }
+}
+
+@media (max-width: 575px) {
+
+}
