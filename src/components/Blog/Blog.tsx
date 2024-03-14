@@ -4,7 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Content from './Content/Content';
 import RightSide from './RightSide/RightSide';
 import List from './List/List';
-import { BlogTypes } from 'models/Blog';
+import { BlogTypes } from 'src/models/blog';
 
 type BlogDetailProps = {
   type: BlogTypes
