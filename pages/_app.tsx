@@ -1,4 +1,4 @@
-import UserLayout from 'src/components/layouts/UserLayout';
+import UserLayout from 'src/layouts/UserLayout';
 import { NextPage } from 'next';
 import type { AppProps } from 'next/app';
 import { ReactNode } from 'react';
